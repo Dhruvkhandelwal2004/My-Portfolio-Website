@@ -1,0 +1,263 @@
+body {
+      background: radial-gradient(circle at top left, #1a1a2e, #0f0f1a 60%);
+      color: white;
+      overflow-x: hidden;
+    }
+    :root {
+      --accent: #8a2be2;
+    }
+    .navbar {
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(10px);
+    }
+    .nav-link {
+      color: #ccc !important;
+      margin:6px;
+    }
+    .glass-card {
+      background: #141427;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 15px;
+      padding: 30px;
+      transition: 0.3s ease;
+    }
+    .info-text p {
+      color: #bbb;
+      margin-bottom: 8px;
+    }
+    .glass-card:hover {
+      transform: translateY(-6px);
+      border: 2px solid white;
+    }
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--accent) !important;
+    }
+    .hero {
+      padding: 140px 0;
+    }
+    .hero h1 {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    .highlight {
+      color: var(--accent);
+      text-shadow: 0 0 15px rgba(138,43,226,0.6);
+    }
+    .btn-accent {
+      background: #8a2be2;
+      border: none;
+      color: white;
+      transition: 0.3s ease;
+    }
+    .btn-accent:hover {
+      background: #6f1fd1; 
+      color: white;
+    }
+    .section-title span {
+      color: var(--accent);
+    }
+    .project-card {
+      background: #141427;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 15px;
+      overflow: hidden;
+      transition: 0.3s ease;
+      height: 100%;
+    }
+    .project-card:hover {
+      border: 2px solid white;
+      transform: translateY(-5px);
+    }
+    .project-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .project-content {
+      padding: 25px;
+    }
+    .project-title {
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .project-content p {
+      color: #bbb;
+    }
+    .badge-custom {
+      background: #1f1f35;
+      border: 1px solid rgba(255,255,255,0.1);
+      color: #ddd;
+      margin-right: 5px;
+    }
+    .form-control {
+      background: #1f1f35;
+      border: 1px solid rgba(255,255,255,0.1);
+      color: white;
+    }
+    .form-control:focus {
+      background: #1f1f35;
+      color: white;
+      border-color: var(--accent);
+      box-shadow: none;
+    }
+    .form-control::placeholder {
+      color: #bbb;
+      opacity: 1;
+    }
+    .social-icon {
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #1f1f35;
+      border-radius: 50%;
+      color: white;
+      font-size: 20px;
+      border: 1px solid rgba(255,255,255,0.15);
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+    .social-icon:hover {
+      border: 2px solid white;
+      color: var(--accent);
+      transform: translateY(-3px)}
+    .about-modern {
+      padding: 120px 0;
+    }
+    .services-section {
+      padding: 100px 0;
+    }
+    .service-card {
+      background: #141427;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+      padding: 30px;
+      transition: 0.3s ease;
+      height: 100%;
+      text-align: center;
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+      border: 2px solid white;
+    }
+    .service-icon {
+      font-size: 40px;
+      color: var(--accent);
+      margin-bottom: 15px;
+    } 
+    .skill-card {
+      background: #141427;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      transition: 0.3s ease;
+    }
+    .skills-section {
+      padding: 100px 0;
+    }
+    .skill-card:hover {
+      border: 2px solid white;
+      transform: translateY(-5px);
+    }
+    .skill-title {
+      color: var(--accent);
+      margin-bottom: 25px;
+      font-weight: 600;
+    }
+    .skill-name {
+      color: white;
+      font-size: 14px;
+    }
+    .progress {
+      background: #1f1f35;
+      height: 8px;
+      border-radius: 10px;
+    }
+    .progress-bar {
+      background: white;
+    }
+    .cta-section {
+      background: radial-gradient(circle at top left, #1a1a2e, #0f0f1a 0%);
+      padding: 100px 0;
+    }
+    .cta-heading {
+      color: #8a2be2;   
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+    }
+    .cta-text {
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+    }
+    .cta-btn {
+      padding: 12px 30px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+    .cta-btn:hover {
+      border: 2px solid white;
+    }
+    .card-modern {
+      background: #141427;
+      border: 1px solid rgba(255,255,255,0.05);
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+    .card-modern {
+      border: 1px solid rgba(255,255,255,0.05);
+      transition: 0.3s ease;
+    }
+
+    .card-modern:hover {
+      transform: translateY(-6px);
+      border: 2px solid var(--accent);
+    }
+    .section-padding {
+      padding: 100px 0;
+    }
+    .glow {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background: var(--accent);
+      filter: blur(120px);
+      opacity: 0.15;
+      border-radius: 50%;
+      z-index: -1;
+    }
+    .resume-section {
+      padding: 100px 0;
+    }
+    .section-title span {
+      color: var(--accent);
+    }
+    .resume-card {
+      background: #141427;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 25px;
+      transition: 0.3s ease;
+    }
+    .resume-card:hover {
+      border: 2px solid white;
+      transform: translateY(-4px);
+    }
+    .resume-card h5 {
+      color: var(--accent);
+      margin-bottom: 15px;
+    }
+    .resume-card p,
+    .resume-card li {
+      color: #bbb;
+    }
+    footer {
+        background: #0b0a0a;
+    }
+    .glow1 { top: 50px; left: -100px; }
+    .glow2 { bottom: 0; right: -100px; }
+    
